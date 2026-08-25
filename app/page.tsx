@@ -55,8 +55,8 @@ export default function Home() {
         <div className="section-intro"><p className="section-kicker">MEET DAIFUKU <span>01</span></p><h2 id="about-title">こんにちは、<br /><em>大福</em>です。</h2></div>
         <div className="about-grid">
           <div className="portrait-stack">
-            <div className="portrait-frame"><Image src="/images/daifuku-portrait.jpeg" alt="木々の緑がきれいな公園でおすわりする大福" fill sizes="(max-width: 800px) 90vw, 38vw" /></div>
-            <p className="photo-caption"><span>↳</span> いつもの公園で、きりっと警備中。</p>
+            <div className="portrait-frame"><Image src="/images/daifuku-sweet-potatoes.jpg" alt="公園でさつまいもの箱のそばに座って笑う大福" fill sizes="(max-width: 800px) 90vw, 38vw" /></div>
+            <p className="photo-caption"><span>↳</span> 大好きなお芋といっしょに、ごきげんな午後。</p>
           </div>
           <div className="about-content">
             <p className="about-lead">白くて、まるくて、<br />ちょっぴり誇らしげ。</p>
@@ -80,9 +80,8 @@ export default function Home() {
       <section className="gallery section" id="gallery" aria-labelledby="gallery-title">
         <div className="gallery-heading"><div><p className="section-kicker">DAIFUKU&apos;S DAYS <span>03</span></p><h2 id="gallery-title">まいにち、<em>大福日和。</em></h2></div><p>木漏れ日も、青い空も、<br />大福といっしょならもっとやさしい。</p></div>
         <div className="gallery-grid">
-          <figure className="gallery-main"><Image src="/images/daifuku-smile.jpeg" alt="緑の芝生で楽しそうに笑う大福" fill sizes="(max-width: 800px) 100vw, 52vw" /><figcaption><span>01</span> SMILE IN THE PARK</figcaption></figure>
-          <figure className="gallery-side"><Image src="/images/daifuku-bandana.jpeg" alt="青いバンダナでくつろぐ大福" fill sizes="(max-width: 800px) 100vw, 32vw" /><figcaption><span>02</span> SUNNY AFTERNOON</figcaption></figure>
-          <figure className="gallery-card"><Image src="/images/daifuku-profile-card.jpeg" alt="大福の名前、好きなもの、仕事、性別、年齢を紹介するプロフィールカード" fill sizes="(max-width: 800px) 100vw, 40vw" /><figcaption><span>03</span> PROFILE CARD</figcaption></figure>
+          <figure className="gallery-main"><Image src="/images/daifuku-sweet-potatoes.jpg" alt="公園でさつまいもの箱のそばに座る大福" fill sizes="(max-width: 800px) 100vw, 50vw" /><figcaption><span>01</span> SWEET POTATO PICNIC</figcaption></figure>
+          <figure className="gallery-side"><Image src="/images/daifuku-closeup.jpg" alt="公園でうれしそうに笑う大福のアップ" fill sizes="(max-width: 800px) 100vw, 50vw" /><figcaption><span>02</span> BIG HAPPY SMILE</figcaption></figure>
         </div>
       </section>
 
@@ -99,7 +98,7 @@ export default function Home() {
         </div>
         <div className="music-player-card">
           <div className="record-art" aria-hidden="true">
-            <Image src="/images/daifuku-smile.jpeg" alt="" fill sizes="220px" />
+            <Image src="/images/daifuku-closeup.jpg" alt="" fill sizes="220px" />
             <span><i /></span>
           </div>
           <div className="music-player">
